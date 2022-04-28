@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   print.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adriouic <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: bberksse <macplus@student.42.fr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/23 00:32:01 by adriouic          #+#    #+#             */
-/*   Updated: 2022/04/27 21:14:58 by adriouic         ###   ########.fr       */
+/*   Updated: 2022/04/28 01:20:23 by macplus          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,7 +98,7 @@ void	print_env_g()
 	t_env *content;
 	t_list *curr;
 
-	curr = genv;
+	curr = g_env;
 	while (curr)
 	{
 		content = (t_env *)curr->content;
